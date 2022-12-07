@@ -9,9 +9,6 @@
         <link rel="stylesheet" href="profile_page.css">
         <title>Tinmate</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        
-    </style>
      </head>
 
      <body>
@@ -24,21 +21,24 @@
         <div>
             <img src="avatar.png" alt="Avatar" class="avatar">
         </div>
-        <div class="gender">
-            <p class="Gender">
+
+            <p class="gender">
                 Gender 
             </p>
-            <button class="pick_button">
+        
+            <button class="pick_male">
                 MALE
             </button>
-            <button class="pick_button">
+            <button class="pick_female">
                 FEMALE
             </button>
-            <button class="pick_button">
+        
+            
+            <button class="pick_other">
                 OTHER
             </button>
             </p>
-        </div>
+        
 
 
         </p>
@@ -61,61 +61,61 @@
                 S3970275
             </fieldset>
             <button class="check_studentcard">
-                <i class="fa fa-camera" style="font-size:15px;color: white;margin-top: 5px;"></i>
+                <i class="fa fa-camera" style="font-size:15px;color: white;margin-top: 5px; margin-left: -9px;"></i>
                 Take a picture of your Student Card</button> 
         </div>
         
-        <div class="current_year">
+      
             <p class="pick_year">
                 YOUR CURRENTLY YEAR
             </p>
-            <button class="edit_button">
-                <i class="fa fa-edit"
-                ></i>
-            </button>
-            <button class="pick_button">
+            <!-- <button class="edit_button_cy">
+                <i class="fa fa-edit" style="font-size: 20px;"></i>
+            </button> -->
+            <p class="dis_cy">
                 SEM 3
-            </button>
+            </p>
         </div>
         <div class="num_course">
             <p class="num_course_title">
                 NUMBER OF COURSE
             </p>
-            <button class="edit_button">
+            <!-- <button class="edit_button">
                 <i class="fa fa-edit"
                 ></i>
-            </button>
-            <button class="pick_button">
+            </button> -->
+            <button class="dis_course">
                 8
             </button>
+            
         </div>
-        <div class="gpa_aim">
+       
             <p class="gpa">
                 GPA - AIM
             </p>
-            <button class="edit_button">
+            <!-- <button class="edit_button">
                 <i class="fa fa-edit"
                 ></i>
-            </button>
+            </button> -->
             <fieldset class="gpa_border"><legend>GPA</legend>
                 4.0
             </fieldset>
             <fieldset class="aim_border"><legend>AIM</legend>
                 HD
             </fieldset>    
-        </div>
+        
         <div class="skills">
             <p class="skill">
                 SKILLS
             </p>
-            <button class="edit_button">
+            <!-- <button class="edit_button">
                 <i class="fa fa-edit"
                 ></i>
-            </button>
-            <button class="pick_button">
+            </button> -->
+            <button class="dis_skill1">
                 LEADER
             </button>
-            <button class="pick_button">
+            <button class="dis_skill2">
                 REPORT
             </button>
         </div>
@@ -123,27 +123,32 @@
             <p class="sc">
                 SCHOOL - MAJOR
             </p>
-            <button class="edit_button">
+            <!-- <button class="edit_button">
                 <i class="fa fa-edit"
                 ></i>
-            </button>
-            <button class="pick_button">
+            </button> -->
+            <button class="dis_school">
                 SSET
             </button>
-            <button class="pick_button">
+            <button class="dis_major">
                 BSM
             </button>
-        <div class="bio">
-            <from>
+            <p class="bio">
+                BIO
+            </p>
+        <!-- <div class="bio">
+            <form>
                 <p>BIO</p>
-                <input type="bio_box" placeholder="Write your bio">
-            </form>
-            </div>
-            <div class="line"></div>
-            <div class="line_text">
+                <input type="text" class="bio_textarea" placeholder="Enter your bio">
+                    
+            </input>
+            </form> -->
+            
+            <p class="line"></p>
+            <p class="line_text">
                 OPTIONAL
-            </div>
-            <div class="line_1"></div>
+            </p>
+            <p class="line_1"></p>
             <div>
                 <button class="confirm">
                     CONFIRM
