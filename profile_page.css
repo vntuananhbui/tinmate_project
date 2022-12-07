@@ -10,10 +10,10 @@ body {
     border-radius: 20%;
 }
 .profle_detail {
-    font-size: 30px;
+    font-size: 50px;
     height: 51px;
     width: 295px;
-    margin-top: 109px;
+    margin-top: 80px;
     margin-left: -100px;
     font-family: "itim";
     }
@@ -32,51 +32,57 @@ body {
 }
 .gender {
     font-family: "itim";
-    margin-top: 450px;
+    margin-top: 440px;
     height: 30px;
     width: 295px;
     margin-left: -280px;
+    font-size: 35px;
 }
 .firstname {
     margin-top: 580px;
-    margin-left: -300px;
+    margin-left: -415px;
     color: black;
-    width: 300px;
-    height: 30px  ;
+    width: 370px;
+    height: 50px  ;
     border-radius: 5px;
     border: 2px solid black;
     font-family: "itim";
+    font-size: 25px;
     }
+
 .lastname {
-    margin-top: 650px;
-    margin-left: -330px;
+    margin-top: 680px;
+    margin-left: -415px;
     color: black;
-    width: 300px;
-    height: 30px  ;
+    width: 370px;
+    height: 50px  ;
     border-radius: 5px;
     border: 2px solid black;
     font-family: "itim";
+    font-size: 25px;
     }
 .id {
-    margin-top: 720px;
-    margin-left: -330px;
+    margin-top: 780px;
+    margin-left: -415px;
     color: black;
-    width: 300px;
-    height: 30px  ;
+    width: 370px;
+    height: 50px  ;
     border-radius: 5px;
     border: 2px solid black;
     font-family: "itim";
+    font-size: 25px;
     }
 
 .check_studentcard {
     background-color: #f53b54 ;
-    margin-top: 790px;
-    margin-left: -330px;
-    border-radius: 15px;
-    width: 330px;
-    height: 45px;
+    margin-top: 880px;
+    margin-left: -415px;
+    border-radius: 5px;
+    width: 410px;
+    height: 60px;
     border: 2px solid #6666;
     font-family: "itim";
+    font-size: 20px;
 }
 .check_studentcard:hover{
     background-color: #f10222;
@@ -94,7 +100,7 @@ body {
     margin-right: 20px;
     cursor: pointer;
     font-size: 14px;
-    border-radius: 10px;
+    border-radius: 5x;
     font-family: "itim";
     }
 .edit_button:hover{
@@ -103,28 +109,86 @@ body {
 .edit_button:active{
     background-color: #E94057;  
 }
-.pick_button {
+.pick_male {
     background-color: white;
     border-radius: 15px;
-    width: 75px;
-    height: 45px;
+    width: 105px;
+    height: 65px;
     border: 2px solid black;
-    margin-right: 20px;
+    margin-left: -300px;
     cursor: pointer;
-    font-size: 14px;
-    border-radius: 10px;
+    font-size: 25px;
     font-family: "itim";
+    margin-top: 500px;
     }
-.current_year{
+.pick_female {
+    background-color: white;
+    border-radius: 15px;
+    width: 105px;
+    height: 65px;
+    border: 2px solid black;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "itim";
+    margin-top: 500px;
+    }
+.pick_other {
+    background-color: white;
+    border-radius: 15px;
+    width: 105px;
+    height: 65px;
+    border: 2px solid black;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "itim";
+    margin-top: 500px;
+    }
+
+   
+.pick_year{
     font-family: "itim";
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -286px;
-    margin-left: -220px;
-    
+    margin-top: 200px;
+    margin-left:670px;
+    font-size: 25px;
+    font-family: "itim";
    
 }
+.edit_button_cy {
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    border: 2px solid #6666;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 15px;
+    font-family: "itim";
+    margin-top: 350px;
+    margin-left:285px;
+    }
+.edit_button_cy:hover{
+    background-color: hsl(352, 79%, 58%);
+}
+.edit_button_cy:active{
+    background-color: #E94057;  
+}
+.dis_cy {
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    border: 2px solid grey;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: "itim";
+    margin-top: 250px;
+    margin-left:220px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: bottom;
+    
+    }
 .num_course{
     font-family: "itim";
     position: absolute;
@@ -132,37 +196,58 @@ body {
     left: 50%;
     margin-top: -160px;
     margin-left: -220px;
+    font-size: 25px;
     
    
 }
-.gpa_aim {
+.dis_course{
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    border: 2px solid grey;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: "itim";
+    margin-top: 20px;
+    margin-left:0px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: bottom;
+    
+    }
+.gpa {
     font-family: "itim";
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -30px;
+    margin-top: 15px;
     margin-left: -220px;
+    font-size: 20px;
+    vertical-align: middle;
+    font-size: 25px;
     
 }
 .gpa_border{
-    border: 2px solid black;
+    border: 2px solid grey;
     background-color: white;
     border-radius: 15px;
     width: 49px;
     height: 32px;
-    
-    margin-top: -52px;
-    margin-left: 98px;
+    font-size: 20px;
+    font-family: 'itim';
+    margin-top: 570px;
+    margin-left: -70px;
 }
 .aim_border{
-    border: 2px solid black;
+    border: 2px solid grey;
     background-color: white;
     border-radius: 15px;
-    width: 50px;
+    width: 49px;
     height: 32px;
-    
-    margin-top: -52px;
-    margin-left: 195px;
+    font-size: 20px;
+    font-family: 'itim';
+    margin-top: 570px;
+    margin-left: 40px;
 }
 
 .skills {
@@ -170,23 +255,86 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 100px;
+    margin-top: 250px;
     margin-left: -220px;
+
+    font-size: 25px;
 }
+.dis_skill1 {
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    border: 2px solid grey;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: "itim";
+    margin-top: -500px;
+    margin-left:0px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: bottom;
+    
+    }
+.dis_skill2 {
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    border: 2px solid grey;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: "itim";
+    margin-top: 20px;
+    margin-left:40px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: bottom;
+    
+    }
 .school_major {
     font-family: "itim";
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 230px;
+    margin-top: 300px;
     margin-left: -220px;
+    font-size: 25px;
 }
+.dis_school {
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    border: 2px solid grey;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: "itim";
+    margin-top: 20px;
+    margin-left:0px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: bottom;
+    
+    }
+.dis_major {
+    background-color: white;
+    width: 75px;
+    height: 45px;
+    border: 2px solid grey;
+    font-size: 18px;
+    border-radius: 15px;
+    font-family: "itim";
+    margin-top: 20px;
+    margin-left:40px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: bottom;
+    
+    }
 .bio{
     font-size: 30px;
     position: absolute;
     top: 60%;
     left: 80%;
-    margin-top: -610px;
+    margin-top: -930px;
     margin-left: -100px;
     font-family: "itim";
 }
@@ -201,7 +349,7 @@ box-sizing: border-box;
 }
 .line{
 color: gray;
-margin-top: -690px;
+margin-top: -830px;
 margin-left: -10px;
 width: 400px;
 height: 50px;
@@ -210,8 +358,8 @@ position: absolute;
 }
 .line_1 {
 color: gray;
-margin-top: -60px;
-margin-left: 500px;
+margin-top: -85px;
+margin-left: 525px;
 width: 400px;
 height: 50px;
 border-bottom: 1px solid black;
@@ -219,7 +367,7 @@ position: absolute
 }
 .line_text {
 color: grey;
-margin-top: -650px;
+margin-top: -800px;
 margin-left: 400px;
 font-family: "itim";
 }
@@ -242,4 +390,7 @@ font-family: "itim";
 }
 .confirm:active{
     background-color: #04610c;  
+}
+.bio_textarea {
+    size: 500px;
 }
