@@ -1,0 +1,252 @@
+.tinmate_logo {
+    vertical-align: middle;
+    width: 131px;
+    height: 131px;
+    margin-top: -260px;
+    border-radius: 20%;
+}
+.line{
+    color: gray;
+    margin-top: 90px;
+    margin-left: 700px;
+    width: 400px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    
+    }
+    .line_1 {
+    color: gray;
+    margin-top: -95px;
+    margin-left: 1350px;
+    width: 400px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    position: absolute
+    }
+    .line_text {
+    color: grey;
+    margin-top: -60px;
+    margin-left: 1150px;
+    font-family: "itim";
+    }
+.profile_detail {
+    
+    position: absolute;
+    width: 295px;
+    height: 51px;
+    margin-top: -100px;
+    margin-left: 20px;
+    font-family: 'itim';
+    font-size: 35px;
+    line-height: 150%;
+    }
+    .avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-left: 50px;
+    margin-top: -50px;
+
+    }
+    .gender {
+    font-family: 'itim';
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 35px;
+
+    }
+    .pick_male {
+    background-color: white;
+    border-radius: 15px;
+    width: 105px;
+    height: 65px;
+    border: 2px solid black;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "itim";
+    margin-top: 5px;
+    }
+    .pick_male:hover{
+        background-color: #e94057;
+    }
+    .pick_male:active{
+        background-color: #e94057;
+    }
+    
+
+    .pick_female {
+    background-color: white;
+    border-radius: 15px;
+    width: 105px;
+    height: 65px;
+    border: 2px solid black;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "itim";
+    margin-top: 00px;
+    }
+    .pick_female:hover{
+        background-color: #e94057;
+    }
+    .pick_female:active{
+        background-color: #e94057;
+    }
+    .pick_other {
+    background-color: white;
+    border-radius: 15px;
+    width: 105px;
+    height: 65px;
+    border: 2px solid black;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "itim";
+    margin-top: 00px;
+    }
+    .pick_other:hover{
+        background-color: #e94057;
+    }
+    .pick_other:active{
+        background-color: #e94057;
+    }
+    .firstname {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+    width: 370px;
+    height: 50px  ;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: "itim";
+    font-size: 25px;
+    }
+    .lastname {
+    margin-top: 10px;
+    margin-left: 40px;
+    color: black;
+    width: 370px;
+    height: 50px  ;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: "itim";
+    font-size: 25px;
+    }
+    .id {
+    margin-top: 10px;
+    margin-left: 40px;
+    color: black;
+    width: 370px;
+    height: 50px  ;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: "itim";
+    font-size: 25px;
+    }
+    .check_studentcard {
+    background-color: #f53b54 ;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 410px;
+    height: 60px;
+    border: 2px solid #6666;
+    font-family: "itim";
+    font-size: 20px;
+}
+    .check_studentcard:hover{
+        background-color: #f10222;
+    }
+    .check_studentcard:active{
+        background-color: #F10222;  
+    }
+    
+    .pick_year{
+        font-family: "itim";
+        position: absolute;
+        margin-top: -720px;
+        margin-left:750px;
+        font-size: 25px;
+        font-family: "itim";
+    
+    }
+    .num_course {
+        font-family: "itim";
+        position: absolute;
+        margin-top: -550px;
+        margin-left:750px;
+        font-size: 25px;
+        font-family: "itim";
+    }
+    .gpa_aim {
+        font-family: "itim";
+        position: absolute;
+        margin-top: -400px;
+        margin-left:750px;
+        font-size: 25px;
+        font-family: "itim";
+
+    }
+    .gpa {
+        border-radius: 15px;
+        width: 40px;
+        height: 55px;
+        border: 2px solid #6666;
+    }
+    .aim {
+        border-radius: 15px;
+        width: 40px;
+        height: 55px;
+        margin-left: 200PX;
+        margin-top: -83PX;
+        border: 2px solid #6666;
+    }
+    .skills {
+        font-family: "itim";
+        position: absolute;
+        margin-top: -230px;
+        margin-left:750px;
+        font-size: 25px;
+        font-family: "itim";
+    }
+    .school {
+        font-family: "itim";
+        position: absolute;
+        margin-top: -80px;
+        margin-left:750px;
+        font-size: 25px;
+        font-family: "itim";
+    }
+     .bio{
+        font-size: 30px;
+        position: absolute;
+        
+        margin-top: -150px;
+        margin-left: 700px;
+        font-family: "itim";
+       } 
+
+        
+        .confirm {
+            background-color: green;
+            border-radius: 15px;
+            width: 230px;
+            height: 60px;
+            border: 2px solid #6666;
+            margin-top: 30px;
+            margin-left: 650px;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 10px;
+            font-family: "itim";
+            color: white;
+            }
+        .confirm:hover{
+            background-color: rgb(11, 195, 20);
+        }
+        .confirm:active{
+            background-color: #04610c;  
+        }
+    
