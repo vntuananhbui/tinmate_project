@@ -250,7 +250,7 @@
     top: 50%;
     left: 50%;
     margin-top: 120px;
-    margin-left: -200px;
+    margin-left: -130px;
     font-size: 25px;
     
 }
@@ -289,7 +289,7 @@
         top: 50%;
         left: 50%;
         margin-top: 280px;
-        margin-left: -200px;
+        margin-left: -130px;
         font-size: 25px;
     }
      .dis_school {
@@ -326,7 +326,7 @@
         position: absolute;
         top: 60%;
         left: 80%;
-        margin-top: -420px;
+        margin-top: -450px;
         margin-left: 0px;
         font-family: "itim";
        } 
@@ -356,7 +356,7 @@
         width: 230px;
         height: 60px;
         border: 2px solid #6666;
-        margin-top: 50px;
+        margin-top: 90px;
         margin-left: 1450px;
         cursor: pointer;
         font-size: 20px;
@@ -373,21 +373,21 @@
     .bio_textarea {
         size: 500px;
     }
-    .edit_button {
-    background-color: white;
-    border-radius: 15px;
-    width: 75px;
-    height: 45px;
-    border: 2px solid #6666;
-    margin-right: 20px;
-    cursor: pointer;
-    font-size: 14px;
+        .edit_button1 {
+        background-color: white;
+        border-radius: 15px;
+        width: 75px;
+        height: 45px;
+        border: 2px solid #6666;
+        margin-left: 20px;
+        cursor: pointer;
+        font-size: 14px;
 
-    font-family: "itim";
+        font-family: "itim";
     }
-.edit_button:hover{
+.edit_button1:hover{
     background-color: #E94057;
 }
-.edit_button:active{
+.edit_button1:active{
     background-color: #E94057;  
 }
